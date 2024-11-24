@@ -73,7 +73,8 @@ autovate/
    ```
 
 3. **Set Up Components**
-   Start two conatiners for PostgresSql and Kafka
+
+   - Start two conatiners for PostgresSql and Kafka
    
    Navigate to each directory (`backend`, `frontend`, `hooks`, `processor`, `worker`) and run:
    ```bash

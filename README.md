@@ -31,6 +31,7 @@ AutoVate is a powerful automation platform that seamlessly triggers actions base
 - **Data Storage**: PostgreSQL
 - **Email Service**: Brevo/SMTP
 - **Queue Processing**: Kafka
+- **Containers**: docker
 
 ## 🏗️ Project Architecture
 
@@ -72,20 +73,21 @@ autovate/
    ```
 
 3. **Set Up Components**
+   Start two conatiners for PostgresSql and Kafka
    
    Navigate to each directory (`backend`, `frontend`, `hooks`, `processor`, `worker`) and run:
    ```bash
    npm install
    ```
 
-4. **Database Setup** (Backend only)
+5. **Database Setup** (Backend only)
    ```bash
    npx prisma migrate dev
    npx prisma generate
    npx prisma db seed
    ```
 
-5. **Launch Services**
+6. **Launch Services**
    ```bash
    # Start backend first
    cd backend && npm run dev

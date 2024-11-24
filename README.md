@@ -56,7 +56,7 @@ autovate/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/autovate.git
+   git clone https://github.com/Sid20rathi/AutoVate.git
    cd autovate
    ```
 
